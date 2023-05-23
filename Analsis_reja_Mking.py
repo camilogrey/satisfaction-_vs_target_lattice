@@ -7,7 +7,7 @@ from scipy.stats import t
 from scipy.stats import zscore
 
 
-df = pd.read_excel("C:/Users/camil/Documents/COURSES/Diplomado Data Sience/Data Sciences/Own Projects/4. Lattice MKing 3 variables (Rel Betwee 2 Var & Stratify Variable)/Satisfc_Gto_Segmento.xlsx")
+df = pd.read_excel("Route")
 print(df.columns)
 
 adultos=df.loc[df["Segmentación"]=="Adultos"]
